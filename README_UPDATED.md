@@ -1,3 +1,14 @@
+## Origin story
+
+This script started as a paid, real-world contract to harden a client's endpoint fleet. I was hired to build an automated firewall enforcement tool that ingests malicious IP intelligence and applies blocking rules on macOS using `pf` (packet filter). The hiring manager explicitly approved using AI to accelerate development, but I used it as an assistant — my goal was to *learn Bash deeply*, not just copy a solution.
+
+Learning path:
+- Followed the freeCodeCamp.org course: **Bash Scripting Tutorial for Beginners** (YouTube)
+- Practiced by writing functions, adding logging, and integrating AbuseIPDB lookups
+- Delivered a working script and production-ready documentation
+
+Outcome: Contract completed and paid. This repo contains the final script, usage notes, and a post-mortem detailing the approach, issues solved, and lessons learned.
+---
 # macOS IP Blocker – Updated Version
 
 This project blocks inbound and outbound network traffic from known malicious IPs using the macOS `pf` firewall. It fetches data from public threat intelligence feeds and automates blocking with logging and optional email alerts.
